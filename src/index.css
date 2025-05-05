@@ -62,6 +62,14 @@
   --sans:"Kumbh Sans", "Arial", sans-serif;
   --serif:"Roboto Slab", "Arial", sans-serif;
   --mono:"Space Mono", "Arial", sans-serif;
+
+  /* COLORS */
+  --bg-body:#1e213f;
+  --red:#f87070;
+  --blue:#272C5A;
+  --dark-blue:#161932;
+  --light-blue:#d7e0ff;
+  --bg-white:#fff;
 }
 
 
