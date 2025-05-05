@@ -8,9 +8,61 @@
 
 
 /* FONTS */
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/public/fonts/SpaceMono-Bold.woff2') format('woff2'),
+      url('/public/fonts/SpaceMono-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/public/fonts/SpaceMono-Regular.woff2') format('woff2'),
+      url('/public/fonts/SpaceMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/public/fonts/RobotoSlab-Regular.woff2') format('woff2'),
+      url('/public/fonts/RobotoSlab-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Slab';
+  src: url('/public/fonts/RobotoSlab-Bold.woff2') format('woff2'),
+      url('/public/fonts/RobotoSlab-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kumbh Sans';
+  src: url('/public/fonts/KumbhSans-Regular.woff2') format('woff2'),
+      url('/public/fonts/KumbhSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 
 /* CUSTOM PROPS */
+:root {
+  /* FONTS */
+  --sans:"Kumbh Sans", "Arial", sans-serif;
+  --serif:"Roboto Slab", "Arial", sans-serif;
+  --mono:"Space Mono", "Arial", sans-serif;
+}
 
 
 /* GLOBAL */
