@@ -7,6 +7,7 @@
 }
 
 
+
 /* FONTS */
 @font-face {
   font-family: 'Space Mono';
@@ -101,56 +102,6 @@ body {
 img {
   max-width: 100%;
   height: auto;
-}
-
-/* CONTAINER */
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-/* VISUALLY-HIDDEN */
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-
-
-/* AUTOFILL-STYLES */
-/*
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus {
-  -webkit-text-fill-color: var(--heading-color);
-  -webkit-box-shadow: 0 0 0px 40rem #ffff inset;
-} */
-
-/* PLACEHOLDER STYLE */
-/*
-::placeholder {
-  color: rgba(52, 49, 61, 0.5);
-} */
-
-
-
-/* MAIN-CONTENT */
-
-.main-content {
-  flex-grow: 1;
 }
 
 
