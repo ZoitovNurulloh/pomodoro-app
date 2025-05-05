@@ -1,0 +1,18 @@
+.app {
+
+}
+
+.app-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 48px;
+  padding-bottom: 56px;
+}
+
+
+.app-logo {
+  display: block;
+  margin-bottom: 40px;
+}

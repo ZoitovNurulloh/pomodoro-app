@@ -70,6 +70,7 @@
   --blue:#272C5A;
   --dark-blue:#161932;
   --light-blue:#d7e0ff;
+  --light-blue-opacity:rgba(215, 224, 255, 0.4);
   --bg-white:#fff;
 }
 
@@ -97,6 +98,7 @@ body {
   font-family: var(--sans);
   font-size: 14px;
   line-height: 14px;
+  font-weight: 700;
 }
 
 img {

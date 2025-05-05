@@ -1,0 +1,29 @@
+.type {
+  position: relative;
+  margin-bottom: 55px;
+  z-index: 5;
+}
+
+.type__list {
+  display: flex;
+  align-items: center;
+  background-color: var(--dark-blue);
+  border-radius:32px;
+  padding: 8px;
+}
+
+.type__item {
+  padding: 19px 26px 15px;
+  cursor: pointer;
+  color: var(--light-blue-opacity);
+}
+
+.type__item--active {
+  background-color: var(--red);
+  color: var(--bg-body);
+  border-radius: 26px;
+}
+
+.type__item:not(:last-child){
+  margin-right: 8px;
+}
